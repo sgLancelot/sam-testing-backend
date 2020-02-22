@@ -104,8 +104,8 @@ Resources:
         Name: id
         Type: String
       ProvisionedThroughput:
-        ReadCapacityUnits: 1 # ZK: reduced RCU
-        WriteCapacityUnits: 1 # ZK: reduced WCU
+        ReadCapacityUnits: 1
+        WriteCapacityUnits: 1
 
 Outputs:
   WebEndpoint:

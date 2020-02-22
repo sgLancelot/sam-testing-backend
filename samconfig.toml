@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sam-testing-backend"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-r86o0tt77lqn"
+s3_prefix = "sam-testing-backend"
+region = "ap-southeast-1"
+capabilities = "CAPABILITY_IAM"
+
